@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Digital Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Digital Portfolio</h1>
+        <p>Student | Learner | Future Professional</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://via.placeholder.com/150" alt="Profile Photo">
+        <p>
+            Hello! I am a student passionate about technology, learning,
+            and personal growth. This portfolio showcases my skills,
+            projects, and achievements.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>School Website</h3>
+            <p>Designed a responsive website for a school event.</p>
+        </div>
+
+        <div class="card">
+            <h3>Science Fair Project</h3>
+            <p>Created an automated plant watering system.</p>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>First Place - Coding Competition</li>
+            <li>Student Leadership Award</li>
+            <li>Science Fair Participation</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: student@email.com</p>
+        <p>LinkedIn: linkedin.com/in/student</p>
+        <p>GitHub: github.com/student</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Student Digital Portfolio</p>
+    </footer>
+
+</body>
+</html>
